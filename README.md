@@ -23,7 +23,46 @@ Catalyst switches are flexible in how link aggregation (which dynamically manage
 
 ## 2. <a name="catamodels">Cisco Catalyst Models</a>
 
-(TODO)
+**Cisco Catalyst switches are generalized into two different model types:**
+
+* Fixed configuration switches (typically 1-2 rack units high, ranging between two dozen and 80 ports).
+* Modular (intended for customization) switches (with individually configurable components, including chassis, line cards, power supplies, and supervisor modules).
+
+**Catalyst model names tend to:**
+
+* Begin with the letter 'C' or the pattern 'WS-C', with a model line indicated afterward (e.g., C6800).
+  + A letter following the number indicates a unique feature of the switch.
+    - After this letter (should there be one), the switch's port count is noted (typically two or four dozen).
+* Include characters indicating extra characteristics of the switch (for example, the 'U' in 'C9300-24U' indicates Universal Power over Ethernet).  
+* In the case of Catalyst 9000 switches, note the software subscription license (with 'A' for 'Advantage', 'E' for 'Essentials', or 'P' for 'Premier').
+
+**Roles of switches:**
+
+* *Access Switches:* Serve as entry points, or gateways, for connecting end-user devices to networks.
+* *Distribution Switches:* Aggregate access traffic, apply policies, and serve as a bridge to the core level.
+* *Core Switches:* Serve as the backbones of networks by providing reliable, high speed connectivity, and route distribution device traffic.
+
+**Fixed configuration Catalyst switch lines include:**
+
+* *Cisco Catalyst 9200 Series:* Stackable (can operate standalone or with other switches) access switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 9300 Series:* Stackable access and distribution switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 9500 Series:* Stackable core switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 1000 Series:* Stackable access switches. Layer 2 devices.
+* *Cisco Catalyst 2960-L Series:* Access switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 2960-X/XR Series:* Stackable access switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 3560CX/2960CX Series:* Smaller, fanless switches. Layer 2 and 3 devices.
+* *Cisco Catalyst Digital Building Series:* Smaller, fanless switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 3650 Series:* Stackable switches. Layer 2 and 3 devices.
+* *Cisco Catalyst 3850 Series:* Stackable access and distribution switches. Layer 2 and 3 devices.
+
+**Modular Catalyst switch lines include:**
+
+* *Cisco Catalyst 4500 Series:* Mid-level modular switches, including a chassis, line cards, service modules, power supplies, and one or more supervisors.
+  + The 4500 series includes the 'E-Series' and 'Classic' chassis (which comes in four sizes: three, six, seven, or ten slots).
+* *Cisco Catalyst 6500 Series:* Chassis-based switches supporting devices of up to 40 Gigabit Ethernet (in speed and redundant supervisor modules).
+* *Cisco Catalyst 6800 Series:* Chassis-based switches supporting devices of up to 40 Gigabit Ethernet (in speed and redundant supervisor modules).
+* *Cisco Catalyst 9400 Series:* Chassis-based access and distribution switches supporting devices of up to 40 Gigabit Ethernet (in speed and redundant supervisor modules, fans, and power supplies).
+* *Cisco Catalyst 9600 Series:* Chassis-based core switches supporting devices of up to 100 Gigabit Ethernet (in speed and redundant supervisor modules, fans, and power supplies).
 
 <hr />
 
