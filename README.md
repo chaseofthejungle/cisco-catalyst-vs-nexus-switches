@@ -31,6 +31,6 @@
 
 ## 4. <a name="supplemental">Supplemental Resources</a>
 
-(TODO)
-
-<hr />
+* *[Ubiquiti and Cisco Meraki Overview Guide](https://github.com/chaseofthejungle/unifi-vs-cisco-meraki)*
+* *[Intro to Load Balancing Overview Guide](https://github.com/chaseofthejungle/intro-to-load-balancing)*
+* *[Intro to Data Center Virtualization](https://github.com/chaseofthejungle/intro-to-data-center-virtualization/)*
