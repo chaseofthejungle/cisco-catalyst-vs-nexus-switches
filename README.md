@@ -29,7 +29,16 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 ## 3. <a name="compare">Comparison and Contrast Table</a>
 
-(TODO)
+| *Feature* | *Cisco Catalyst Switches* | *Cisco Nexus Switches* |
+| :---: | :---: | :----: |
+| Automation | | |
+| Compatibility | | |
+| Convergence | | |
+| Cost | | |
+| Performance & Scalability | | |
+| Power over Ethernet (PoE) | | |
+| Security | | |
+| Virtualization | | |
 
 <hr />
 
