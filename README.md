@@ -5,9 +5,11 @@
 #### Table of Contents
 
 1. [Cisco Catalyst Overview](#catalyst)
-2. [Cisco Nexus Overview](#nexus)
-3. [Comparison and Contrast Table](#compare)
-4. [Supplemental Resources](#supplemental)
+2. [Cisco Catalyst Models](#catamodels)
+3. [Cisco Nexus Overview](#nexus)
+4. [Cisco Nexus Models](#nexusmodels)
+5. [Comparison and Contrast Table](#compare)
+6. [Supplemental Resources](#supplemental)
 
 <hr />
 
@@ -19,7 +21,13 @@ Catalyst switches are flexible in how link aggregation (which dynamically manage
 
 <hr />
 
-## 2. <a name="nexus">Cisco Nexus Overview</a>
+## 2. <a name="catamodels">Cisco Catalyst Models</a>
+
+(TODO)
+
+<hr />
+
+## 3. <a name="nexus">Cisco Nexus Overview</a>
 
 Cisco Nexus switches are intended for implementation in data centers, as well as other data-heavy and mission-critical professional networks with advanced configuration and sustainability requirements. Nexus switches run on the Linux kernel based Cisco Nexus Operating System (NX-OS), which can optimize process automation, network security, availability, scalability, and performance. While this OS empowers networking professionals by providing complex and nuanced features, it also has a potentially steep learning curve.
 
@@ -27,7 +35,13 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 <hr />
 
-## 3. <a name="compare">Comparison and Contrast Table</a>
+## 4. <a name="nexusmodels">Cisco Nexus Models</a>
+
+(TODO)
+
+<hr />
+
+## 5. <a name="compare">Comparison and Contrast Table</a>
 
 *Note: Catalyst and Nexus switches are compatible, and can be provisioned onto the same network environment and as components of the same server racks and aggregations.*
 
@@ -43,7 +57,7 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 <hr />
 
-## 4. <a name="supplemental">Supplemental Resources</a>
+## 6. <a name="supplemental">Supplemental Resources</a>
 
 * *[Ubiquiti and Cisco Meraki Overview Guide](https://github.com/chaseofthejungle/unifi-vs-cisco-meraki)*
 * *[Intro to Load Balancing Overview Guide](https://github.com/chaseofthejungle/intro-to-load-balancing)*
