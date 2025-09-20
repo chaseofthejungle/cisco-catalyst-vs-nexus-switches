@@ -21,7 +21,7 @@ Catalyst switches are flexible in how link aggregation (which dynamically manage
 
 ## 2. <a name="nexus">Cisco Nexus Overview</a>
 
-Cisco Nexus switches are intended for implementation in data centers, as well as other data-heavy and mission-critical professional networks with advanced configuration and sustainability requirements. Nexus switches run on the Linux-based Cisco Nexus Operating System (NX-OS), which can optimize process automation, network security, availability, scalability, and performance. While this OS empowers networking professionals by providing complex and nuanced features, it also has a potentially steep learning curve.
+Cisco Nexus switches are intended for implementation in data centers, as well as other data-heavy and mission-critical professional networks with advanced configuration and sustainability requirements. Nexus switches run on the Linux kernel based Cisco Nexus Operating System (NX-OS), which can optimize process automation, network security, availability, scalability, and performance. While this OS empowers networking professionals by providing complex and nuanced features, it also has a potentially steep learning curve.
 
 Nexus switches are limited in how they employ link aggregation (which dynamically manages Ethernet channels): they commonly only support the open-source Link Aggregation Control Protocol (LACP) as their protocol for conducting this task. However, they do support a variety of media for connections, such as Ethernet, fiber, and Fiber Channel over Ethernet (FCoE) cabling. 
 
@@ -29,16 +29,17 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 ## 3. <a name="compare">Comparison and Contrast Table</a>
 
+*Note: Catalyst and Nexus switches are compatible, and can be provisioned onto the same network environment and as components of the same server racks and aggregations.*
+
 | *Feature* | *Cisco Catalyst Switches* | *Cisco Nexus Switches* |
 | :---: | :---: | :----: |
-| Automation | | |
-| Compatibility | | |
-| Convergence | | |
-| Cost | | |
-| Performance & Scalability | | |
-| Power over Ethernet (PoE) | | |
-| Security | | |
-| Virtualization | | |
+| Automation | Cisco Catalyst Center (UI) allows for automated configurations, auto-discovery, and zero-touch provisions. | NX-OS Supports APIs, Python, and related integrations. |
+| Convergence | Generalized recovery and broacast storm prevention via Spanning Tree Protocol (STP). | Intended for data centers. STP with Rapid PVST+, Virtual Port Channels (vPC) |
+| Performance & Scalability | Versatile/intended for customizations. | Can be updated while in production while maintaining high performance, but more complex to configure. |
+| Power over Ethernet (PoE) | Utilizes PoE+, increasing range of switch-plugged devices and Ethernet power without introducing additional cables. | Not included with all Nexus switches. |
+| Security | Authorization controls via port security, Access Control Lists (ACLs), Dynamic Host Configuration Protocol (DHCP) Snooping. | Strong security policy enforcement and network segmentation. |
+| Virtualization | Some deployment and resource sharing possibilities. Fewer virtualization options than Nexus switches. | NetFlow, Virtual Device Context (VDC), and virtual machine connectivity capabilities. More virtualization options than Catalyst switches. |
+| Cost | Less expensive up-front costs. | More expensive up-front costs, for advanced features and longer-term stability. |
 
 <hr />
 
