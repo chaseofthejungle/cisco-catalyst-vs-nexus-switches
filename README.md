@@ -13,15 +13,17 @@
 
 ## 1. <a name="catalyst">Cisco Catalyst Overview</a>
 
-(TODO)
+Cisco Catalyst switches are commonly implemented in corporate networks in which users and host devices may rapidly scale throughout a large network. While Small Office Home Office (SOHO) networks are unlikely to require or benefit from the power of Catalyst switches, higher education and company campuses and office buildings are common users. Catalyst switches run on Cisco's IOS operating system, which has a moderate learning curve and can be studied and simulated using free Cisco network mapping and simulation tools such as [Packet Tracer](https://www.netacad.com/cisco-packet-tracer).
+
+Catalyst switches are flexible in how link aggregation (which dynamically manages Ethernet channels) can be employed: they support both the open-source Link Aggregation Control Protocol (LACP) and the proprietary Port Aggregation Control Protocol (PAgP).
 
 <hr />
 
 ## 2. <a name="nexus">Cisco Nexus Overview</a>
 
-Cisco Nexus switches are intended for implementation in data centers, as well as other data-heavy and mission-critical professional networks with advanced configuration and sustainability requirements. Cisco Nexus switches run on the Linux-based Cisco Nexus Operating System (NX-OS), which can optimize process automation, network security, availability, scalability, and performance. While this OS empowers networking professionals by providing complex and nuanced features, it also has a potentially steep learning curve.
+Cisco Nexus switches are intended for implementation in data centers, as well as other data-heavy and mission-critical professional networks with advanced configuration and sustainability requirements. Nexus switches run on the Linux-based Cisco Nexus Operating System (NX-OS), which can optimize process automation, network security, availability, scalability, and performance. While this OS empowers networking professionals by providing complex and nuanced features, it also has a potentially steep learning curve.
 
-Nexus switches are limited in how they employ link aggregation (which dynamically manages Ethernet channels): they commonly only support the open-standard Link Aggregation Control Protocol (LACP) as their protocol for conducting this task. However, they do support a variety of media for connections, such as Ethernet, fiber, and Fiber Channel over Ethernet (FCoE) cabling. 
+Nexus switches are limited in how they employ link aggregation (which dynamically manages Ethernet channels): they commonly only support the open-source Link Aggregation Control Protocol (LACP) as their protocol for conducting this task. However, they do support a variety of media for connections, such as Ethernet, fiber, and Fiber Channel over Ethernet (FCoE) cabling. 
 
 <hr />
 
