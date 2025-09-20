@@ -19,7 +19,9 @@
 
 ## 2. <a name="nexus">Cisco Nexus Overview</a>
 
-(TODO)
+Cisco Nexus switches are intended for implementation in data centers, as well as other data-heavy and mission-critical professional networks with advanced configuration and sustainability requirements. Cisco Nexus switches run on the Linux-based Cisco Nexus Operating System (NX-OS), which can optimize process automation, network security, availability, scalability, and performance. While this OS empowers networking professionals by providing complex and nuanced features, it also has a potentially steep learning curve.
+
+Nexus switches are limited in how they employ link aggregation (which dynamically manages Ethernet channels): they commonly only support the open-standard Link Aggregation Control Protocol (LACP) as their protocol for conducting this task. However, they do support a variety of media for connections, such as Ethernet, fiber, and Fiber Channel over Ethernet (FCoE) cabling. 
 
 <hr />
 
