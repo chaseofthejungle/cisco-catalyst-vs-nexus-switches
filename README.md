@@ -76,7 +76,16 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 ## 4. <a name="nexusmodels">Cisco Nexus Models</a>
 
-(TODO)
+**Nexus switch lines include:**
+
+* *Cisco Nexus 1000v Virtual Switches*
+* *Cisco Nexus 2000 Fabric Extenders*
+* *Cisco Nexus 3000 Series*
+* *Cisco Nexus 4001 IBM Blade Center Switches*
+* *Cisco Nexus 5000 Series*
+* *Cisco Nexus 6000 Series*
+* *Cisco Nexus 7000 Series Catacenter Switches* (also has modular capabilities)
+* *Cisco Nexus 9000 Series*
 
 <hr />
 
