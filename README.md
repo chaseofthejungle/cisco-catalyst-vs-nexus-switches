@@ -78,14 +78,14 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 **Nexus switch lines include:**
 
-* *Cisco Nexus 1000v Virtual Switches*
-* *Cisco Nexus 2000 Fabric Extenders*
-* *Cisco Nexus 3000 Series*
-* *Cisco Nexus 4001 IBM Blade Center Switches*
-* *Cisco Nexus 5000 Series*
-* *Cisco Nexus 6000 Series*
-* *Cisco Nexus 7000 Series Catacenter Switches* (also has modular capabilities)
-* *Cisco Nexus 9000 Series*
+* *Cisco Nexus 1000v Virtual Switches:* Supplies a high-security architectural platform for remote/cloud networks (including multi-tenant deployments) and virtualized servers.
+* *Cisco Nexus 2000 Fabric Extenders:* Supplies centralized and highly scalable architecture for data center server access/operations and virtualization. 'Extends' parent Nexus switch fabric and, in the process, creates distributed systems that are also modular in nature.
+* *Cisco Nexus 3000 Series:* Specializes in low latency for various deployments (such as data centers and cloud environments).
+* *Cisco Nexus 4001 IBM (4001I) Blade Center Switches:* Utilized by BladeCenter H and HT chassis, with Fibre Channel over Ethernet (FCoE) capabilities, low latency, high scalability, and support for high performance server virtualization.
+* *Cisco Nexus 5000 Series:* Supplies FCoE switching to simplify data center input/output operations.
+* *Cisco Nexus 6000 Series:* Highly dense, compact, energy optimizing, and strongly performing. For virtualized servers, remote/cloud, and other deployments (even if space is constrained).
+* *Cisco Nexus 7000 Series Catacenter Switches:* Harmonizes well with Cisco NX-OS features, Software-Defined Networking (SDN) utilities, and Unified Fabric solutions for contemporary data centers.
+* *Cisco Nexus 9000 Series:* Versatile, whether for entirely automated data centers or traditional data servers, with compatibility for both NX-OS and Application Centric Infrastructure (ACI). Provides low latency, power optimization, compact form factors, and high density and performance.  
 
 <hr />
 
