@@ -93,7 +93,7 @@ Nexus switches are limited in how they employ link aggregation (which dynamicall
 
 *Note: Catalyst and Nexus switches are compatible, and can be provisioned onto the same network environment and as components of the same server racks and aggregations.*
 
-| *Feature* | *Cisco Catalyst Switches* | *Cisco Nexus Switches* |
+| *Feature* | [*Cisco Catalyst Switches*](https://www.cisco.com/c/en/us/products/switches/switch-selector.html?search_keyword=catalyst) | [*Cisco Nexus Switches*](https://www.cisco.com/c/en/us/products/switches/switch-selector.html?search_keyword=nexus) |
 | :---: | :---: | :----: |
 | Automation | Cisco Catalyst Center (UI) allows for automated configurations, auto-discovery, and zero-touch provisions. | NX-OS Supports APIs, Python, and related integrations. |
 | Convergence | Generalized recovery and broacast storm prevention via Spanning Tree Protocol (STP). | Intended for data centers. STP with Rapid PVST+, Virtual Port Channels (vPC) |
